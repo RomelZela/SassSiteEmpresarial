@@ -1,0 +1,107 @@
+@import 'variables';
+
+//index
+@mixin bgColorWhite {
+    background-color: white;
+}
+
+
+//Contact
+@mixin form {
+    text-align: center;
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+@mixin inputTextarea{
+    width:500px;
+    padding:5px;
+    display:block;
+    margin:20px;
+
+    &:last-child{
+        background-color: red;
+    }
+}
+
+//pricingBox
+@mixin principalTable {
+    position:relative;
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    padding:30px;
+}
+
+@mixin principalTableDiv {
+    border: 1px solid black;
+    margin: 20px;
+}
+
+@mixin prinxipalTableDivH1 {
+    background-color: grey;
+    padding:20px;
+    margin-bottom: 0; 
+    font-size:34px;
+}
+@mixin good {
+    background-color: red !important;
+    color:white !important;
+}
+@mixin ul{
+    margin:0 !important;
+    padding:0 !important;
+}
+@mixin li{
+    text-align: center;
+    list-style: none;
+    padding:8px;
+    border:1px grey solid;
+    &:last-child{
+        background-color:red;
+        padding: 5px;
+        border:10px solid black;
+        font-weight: 900;
+    }
+    &:first-child{
+        background-color: black;
+        color:white;
+        padding:20px;
+    }
+}
+
+//Porfolio
+
+@mixin buttonsWorks {
+    padding:25px;
+}
+@mixin h1 {
+    font-size: 22px;
+}
+@mixin sectionButton {
+    border: $borderBlack;
+    padding:5px 10px;
+    width: fit-content;
+    display:inline-block;
+    margin:10px;
+
+    &:last-child{
+        background-color: grey;
+    }
+}
+
+@mixin imgWorks {
+    width: 90%;
+    display:flex;
+    flex-direction: row;
+    position:relative;
+    flex-wrap: wrap;
+    justify-content: space-around; 
+    cursor: pointer;
+}
+@mixin item1 {
+    padding: 20px 30px;
+}

@@ -1,0 +1,18 @@
+@import 'functions';
+
+.buttonsWorks{
+    @include buttonsWorks;
+}
+
+section > button{
+    @include sectionButton;
+}
+.imgWorks{
+    @include imgWorks;
+}
+.item1{
+    @include item1;
+}
+h1{
+    @include h1;
+}

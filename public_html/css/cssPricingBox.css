@@ -1,0 +1,50 @@
+
+.principalTable {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding: 30px;
+}
+
+.principalTable > div {
+  border: 1px solid black;
+  margin: 20px;
+}
+
+.principalTable > div > h1 {
+  background-color: grey;
+  padding: 20px;
+  margin-bottom: 0;
+  font-size: 34px;
+}
+
+.good {
+  background-color: red !important;
+  color: white !important;
+}
+
+ul {
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+li {
+  text-align: center;
+  list-style: none;
+  padding: 8px;
+  border: 1px grey solid;
+}
+li:last-child {
+  background-color: red;
+  padding: 5px;
+  border: 10px solid black;
+  font-weight: 900;
+}
+li:first-child {
+  background-color: black;
+  color: white;
+  padding: 20px;
+}
+
+/*# sourceMappingURL=cssPricingBox.css.map */

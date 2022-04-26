@@ -1,0 +1,9 @@
+@import 'functions';
+
+.form{
+    @include form;
+}
+
+input, textarea{
+    @include inputTextarea
+}

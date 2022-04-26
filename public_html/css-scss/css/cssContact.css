@@ -1,0 +1,20 @@
+.form {
+  text-align: center;
+  margin: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+
+input, textarea {
+  width: 500px;
+  padding: 5px;
+  display: block;
+  margin: 20px;
+}
+input:last-child, textarea:last-child {
+  background-color: red;
+}
+
+/*# sourceMappingURL=cssContact.css.map */

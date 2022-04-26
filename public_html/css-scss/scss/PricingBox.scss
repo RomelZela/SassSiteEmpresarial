@@ -1,0 +1,24 @@
+@import 'functions';
+
+.principalTable{
+    @include principalTable;
+}
+
+.principalTable > div{
+    @include principalTableDiv;
+}
+
+.principalTable > div > h1{
+    @include prinxipalTableDivH1;
+}
+
+.good{
+    @include good;
+}
+
+ul{
+    @include ul;
+}
+li{
+    @include li;
+}
